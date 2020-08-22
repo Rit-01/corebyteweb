@@ -1,0 +1,380 @@
+
+
+ /*-------------loading-------------------------*/
+
+ #loader {
+  margin-top: 50%;
+  margin-left: 45%;
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+ }
+
+  @keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+  }
+
+  /*-----------------------slid smoothness-------------------------*/
+  
+   html
+  {
+    scroll-behavior: smooth;
+  }
+
+  /*------------------------------logo-------------------------*/
+
+  .logo img
+  {
+    height: 80px;
+    width: 150px;
+
+  }
+
+   /*-----------------------------------nev-bar-------------------------*/
+
+  .navbar
+  {
+    position: sticky;
+    top: 0;
+  }
+
+  /*-----------------------------------home image slaider-------------------------*/
+
+  .carousel .slide
+  {
+    margin-top: 50px;
+  }
+  section:brfore
+  {
+    content: attr(data-text);
+    text-transform: uppercase;
+  }
+  
+ /*-----------------------------------Services-------------------------------*/
+ 
+
+  #Services
+  {
+    padding: 80px 0;
+  } 
+
+   /*-----------------------------------These code use for box-shadow-------------------------*/
+
+  .Services 
+  {   
+    margin-top: 80px;
+    position: relative;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    background: rgb(225,225,225,.2);
+    border-radius: 5px;
+    overflow: auto;
+  }
+  .Services:hover
+  {
+    background-color:black;
+    color: white;
+  }
+  .Services img
+  {
+    margin-top: 5px;
+    height: 150px;
+    width: 150px;
+    border-radius: 60%;
+    margin-left: 20px;
+  }
+
+  .Services h4
+  {
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  .Services p
+  {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  .box
+  {
+    width:990px;
+    margin-left: 5%;
+  }
+  .tittle1
+  {
+    margin-top:;
+    font-family: serif;
+  }
+  .tittle1:hover
+  {
+    background-color: lightblue;
+    color: white;
+  }
+  .tittle
+  {
+    margin-top: 30px;
+  }
+  .tittle:hover
+  {
+     background-color: lightblue;
+    color: white;
+  }
+
+ /*-----------------------------------Business-Segment-------------------------*/
+
+  .card
+   {
+     line-height: 30px;
+     margin-top: 50px;
+     margin-bottom: 20px;
+     margin-left: 25px;
+
+   }
+ 
+
+   /*-----------------------------------About section-------------------------*/
+
+ #about-us 
+{
+  background-image:bo.jpg; 
+  font-family:serif;
+  padding-bottom:50px; 
+}
+.about-tittle 
+{
+  margin-top: 25px; 
+  font-size: 35px;
+  margin-left: -200px;
+}
+.point li
+{
+  margin-top: 20px;
+    table-layout: fixed;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+  /*-----------------------------------use for coloum-------------------------*/
+
+.col-md-6 img
+{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 20px;
+  height: 420px;
+  width: 550px;
+  box-sizing: 450px, 550px;
+  border-radius: 10px;
+}
+.bio p
+{
+  margin-top:50px;
+  width: 450px;
+  margin-left: 130px;
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  margin-bottom: 50px;
+}
+
+.bio1{
+    width:450px; 
+    margin-top: 60px;
+    margin-left: 170px;
+    font-size: 20px;
+  }
+
+.tittle3 h3
+{
+  margin-top: 50px;
+}
+
+
+ /*-----------------------------------skills-bar-------------------------*/
+
+
+.skills-bar p
+{
+  margin-bottom: 6px;
+  font-weight: 500;
+
+}
+.progress-bar
+{
+  border-radius: 16px;
+}
+.progress
+{
+  border-radius: 16px !importent;
+  margin-bottom:20px;
+  width:550px;
+}
+
+ 
+  /*-----------------------------------Social-icon-------------------------*/
+
+.middle img
+{
+  height: 30px;
+  width: 30px;
+  border-radius: 20%;
+
+}
+
+/*
+
+.social-icon ul
+{
+  position: absolute;
+  margin-left:37%;
+  margin-top: 5%;
+  display: flex;
+}
+.social-icon ul li
+{
+  list-style: none;
+  margin: 0 20px;
+}
+.social-icon ul li img
+{
+  height: 30px;
+  width: 30px;
+  margin-top:120px;
+  border-radius: 30%;
+  background-color: transparent;
+  font-size: 35px;
+  line-height: 60px;
+  transition: .6s;
+  color: #000;
+}
+.social-icon ul li i
+{
+  font-size: 25px;
+  color: red;
+  margin-top:120px;
+
+}
+*/
+
+ /*-----------------------------------footer-------------------------*/
+
+
+.footer
+{
+  background-color: light;
+  height: 50px;
+  margin-top:-20px;
+  line-height: 10px;
+}
+
+ /*-----------------------------------logo-------------------------*/
+
+
+.img img
+{
+  height: 100px;
+  width: 180px; 
+  margin-top: 20px;
+}
+.link
+{
+  font-size: 18px;
+  line-height: 10px;
+
+}
+
+.name
+{
+  margin-top: 340px;
+   background-color: gray;
+   color: black;
+}
+
+.up-arrow{
+  font-size: 45px;
+  float: left;
+  margin-right:10%;
+  margin-left: 95%;
+  margin-top: 700px;
+  position: fixed;
+  top: 0;
+}
+.up-arrow a{
+  color: #262626;
+}
+
+/*----------------------------------------------media_width--------------------------------------------*/
+
+@media(max-width:700px){
+
+   *body{
+    margin-left:10px;
+   }
+    
+   .col-md-6 img{
+    width: 300px;
+    height: 300px;
+    margin-left: -5px;
+   }
+   .about-tittle {
+    margin-left: 10px;
+   }
+   .bio1{
+    margin-left: 20px;
+    width: 300px;
+   }
+   .tittle3 h3{
+    margin-top: 50px;
+   }
+   .skills-bar p{
+    margin-left: 30px;
+   }
+   .progress{
+    position: relative;
+    width: 300px;
+    margin-left: 25px;
+   }
+   .form-group label{
+    margin-left: -40px;
+   }
+   .form-group input{
+    margin-left: -40px;
+    width: 250px;
+   }
+   .form-group textarea{
+    margin-left: -40px;
+    width: 250px;
+   }
+   .button {
+    margin-left: -40px;
+   }
+   .social-icon ul li img{
+    margin-left: -160px;
+    margin-top: 180px;
+    text-align: center;
+   }
+   .social-icon ul li i{
+    margin-left: -160px;
+    margin-top: 180px;
+    text-align: center;
+   }
+   .tittle1{
+    font-size: 20px;
+   }
+   .about-tittle{
+    font-size: 32px;
+    margin-top: -20px;
+    margin-left: -10px;
+   }
+   .card{
+    margin-left: 30px;
+   }
+   .Services{
+      margin-left: 35px;
+   }
+
+}
